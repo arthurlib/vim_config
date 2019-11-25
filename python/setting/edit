@@ -1,0 +1,38 @@
+"设置行号
+set number
+
+"取消设置号
+"set nonumber
+
+"在文本上按下>>（增加一级缩进）、<<（取消一级缩进）或者==（取消全部缩进）时，每一级的字符数
+"set shiftwidth=4
+
+"由于 Tab 键在不同的编辑器缩进不一致，该设置自动将 Tab 转为空格
+set expandtab
+
+"Tab 转为多少个空格
+set softtabstop=4
+
+"光标所在的当前行高亮
+set cursorline
+
+"自动折行，即太长的行分成几行显示
+set wrap
+
+"关闭自动折行
+"set nowrap
+
+"只有遇到指定的符号（比如空格、连词号和其他标点符号），才发生折行。也就是说，不会在单词内部折行
+"set linebreak
+
+"指定折行处与编辑窗口的右边缘之间空出的字符数
+set wrapmargin=2
+
+"垂直滚动时，光标距离顶部/底部的位置（单位：行）
+"set scrolloff=5
+
+"水平滚动时，光标距离行首或行尾的位置（单位：字符）。该配置在不折行时比较有用
+"set sidescrolloff=15
+
+"光标遇到圆括号、方括号、大括号时，自动高亮对应的另一个圆括号、方括号和大括号
+"set showmatch

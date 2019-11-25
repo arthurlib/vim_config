@@ -1,0 +1,10 @@
+"搜索时，高亮显示匹配结果
+set hlsearch
+
+"输入搜索模式时，每输入一个字符，就自动跳到第一个匹配的结果
+set incsearch
+set ignorecase
+
+"搜索时忽略大小写
+"如果同时打开了ignorecase，那么对于只有一个大写字母的搜索词，将大小写敏感；其他情况都是大小写不敏感。比如，搜索Test时，将不匹配test；搜索test时，将匹配Test
+set smartcase

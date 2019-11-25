@@ -1,0 +1,8 @@
+"窗口移动
+"vim的默认窗口移动方式是Ctrl+w Ctrl+hjkl，但是这样太过复杂，对此进行绑定
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+

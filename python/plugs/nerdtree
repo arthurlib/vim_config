@@ -1,0 +1,4 @@
+"在vim中浏览文件夹：nerdtree
+nnoremap <F3> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+

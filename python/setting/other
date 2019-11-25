@@ -1,0 +1,19 @@
+"如果行尾有多余的空格（包括 Tab 键），该配置将让这些空格显示成可见的小方块
+set listchars=tab:»■,trail:■
+set list
+
+"自动切换工作目录。这主要用在一个 Vim
+"会话之中打开多个文件的情况，默认的工作目录是打开的第一个文件的目录。该配置可以将工作目录自动切换到，正在编辑的文件的目录
+set autochdir
+
+"打开英语单词的拼写检查
+set spell spelllang=en_us
+
+"支持使用鼠标
+set mouse=a
+
+"使用 utf-8 编码
+set encoding=utf-8
+
+"启用256色
+set t_Co=256

@@ -1,0 +1,17 @@
+"打开语法高亮。自动识别代码，使用多种颜色显示
+syntax on
+
+"开启文件类型检查，并且载入与该类型对应的缩进规则。比如，如果编辑的是.py文件，Vim"就是会找 Python 的缩进规则~/.vim/indent/python.vim
+filetype indent on
+
+
+"按下回车键后，下一行的缩进会自动跟上一行的缩进保持一致
+set autoindent
+
+
+"按下 Tab 键时，Vim 显示的空格数
+set tabstop=4
+
+
+"设置行宽，即一行显示多少个字符
+"set textwidth=80
