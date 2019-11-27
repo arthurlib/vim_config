@@ -60,8 +60,8 @@ call plug#end()
     for plug in plug.plugs:
         if plug['status']:
             if plug.get('cmd', ''):
-                print(plug['cmd'])
-                # subprocess.run(plug['cmd'], shell=True)
+                # print(plug['cmd'])
+                subprocess.run(plug['cmd'], shell=True)
             if plug.get('name', ''):
                 plugs.append("Plug '%s'" % plug['name'])
             if plug.get('file', ''):

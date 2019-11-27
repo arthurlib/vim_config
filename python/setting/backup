@@ -1,8 +1,8 @@
 "不创建备份文件。默认情况下，文件保存时，会额外创建一个备份文件，它的文件名是在原文件名的末尾，再添加一个波浪号（〜）
-set nobackup
+"set nobackup
 
 "不创建交换文件。交换文件主要用于系统崩溃时恢复文件，文件名的开头是.、结尾是.swp
-set noswapfile
+"set noswapfile
 
 "保留撤销历史
 "Vim会在编辑时保存操作历史，用来供用户撤消更改。默认情况下，操作记录只在本次编辑时有效，一旦编辑结束、文件关闭，操作历史就消失了
@@ -17,4 +17,4 @@ set directory=~/.vim/.swp//
 set undodir=~/.vim/.undo//
 
 "Vim 需要记住多少次历史操作
-"set history=1000
+set history=1000

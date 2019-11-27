@@ -7,7 +7,7 @@ set list
 set autochdir
 
 "打开英语单词的拼写检查
-set spell spelllang=en_us
+"set spell spelllang=en_us
 
 "支持使用鼠标
 set mouse=a
@@ -17,3 +17,9 @@ set encoding=utf-8
 
 "启用256色
 set t_Co=256
+
+"去掉有关Vi的一致性模式，避免之前版本的Bug，在命令模式下(删除键还显示字符)
+set nocompatible
+
+"设置backspace的工作方式
+set backspace=indent,eol,start

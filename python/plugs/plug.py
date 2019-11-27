@@ -30,7 +30,7 @@ plugs = [
         'cmd': "pip3 install flake8"
     },
     {
-        'status': 1,
+        'status': 0,
         'name': 'scrooloose/syntastic',# 代码自动检查
         'file': 'syntastic',
         'cmd': "pip3 install flake8"
